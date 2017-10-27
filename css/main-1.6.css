@@ -160,7 +160,7 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
 
-#introtext .head-sarah {
+#introtext .head-katie {
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 5em;
     line-height: 100%;
@@ -171,15 +171,17 @@ body {
     margin-left: -10px;
     font-size: 0.7em;
 }
-#introtext .head-brad {
-    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 2em;
+#introtext .head-andrew {
+    font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 5em;
     line-height: 100%;
 }
 #introtext .date {
-    margin-top: 10px;
-    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 1em;
+    margin-top: 10px;    
+    font-family: 'Parisienne', cursive;
+    
+    /* font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  */
+    font-size: 5em;
 }
 
 /* ==============
