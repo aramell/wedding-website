@@ -141,7 +141,7 @@ body {
 #introtext {
     display: block;
     padding: 10px 0 10px 0;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     background: black;
 
     -ms-border-radius: 8px;
@@ -178,7 +178,7 @@ body {
 }
 #introtext .date {
     margin-top: 10px;    
-    font-family: 'Parisienne', cursive;
+    font-family: 'Dancing Script', cursive;
     
     /* font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  */
     font-size: 5em;
