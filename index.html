@@ -19,7 +19,7 @@
         <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
         <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-        <link rel="shortcut icon" href="favicon.ico?v=1">
+        <link rel="shortcut icon" href="favicon.ico?v=1">\
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main-1.6.css">
@@ -114,12 +114,19 @@
                             </figure>
 
                             <h2>THE ENGAGEMENT</h2>
-                            <p>While visiting Nashville, Andrew surprised Katie by proposing on the pedestrain bridge in Nashville, TN in front of their friends.  It is difficult to surpise Katie, but Andrew was able to do it with the help of his and her friends.</p>
+                            <p>While visiting Nashville, Andrew surprised Katie by proposing on the pedestrain bridge in Nashville, TN in front of their friends.  It is difficult to surprise Katie, but Andrew was able to do it with the help of his and her friends.</p>
                                                         
                         </div><!--end column-->
+                        <!-- slideshow -->
+                           
 
+                        <!-- end slideshow -->
                     </section>
-
+                    <ul class="rslides">
+                            <li><img src="newsize-apple.jpg" alt=""></li>
+                            <!-- <li><img src="2.jpg" alt=""></li>
+                            <li><img src="3.jpg" alt=""></li> -->
+                    </ul>
                     <section id="wedding" class="clearfix">
 
                         <h1>Wedding</h1>
@@ -247,12 +254,21 @@
                 </div> <!-- #main -->
             </div> <!-- #main-container -->
         </div> <!-- #bg-container -->
+        <!-- Jquery and scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+                <script src="responsiveslides.min.js"></script>
 
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/vendor/waypoints.min.js"></script>
         <script src="js/vendor/jquery-picture-min.js"></script>
-
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
+        <script>
+                $(function() {
+                  $(".rslides").responsiveSlides();
+                });
+        </script>
         <script src="js/main-1.5.js"></script>
 
         <script>
