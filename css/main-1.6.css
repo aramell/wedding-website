@@ -352,8 +352,8 @@ section h2 {
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
-    width: 100%;
-    left: 0;
+    width: 50%;
+    left: 25%;
     top: 0;
     }
   
