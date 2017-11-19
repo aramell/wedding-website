@@ -343,17 +343,17 @@ section h2 {
     position: relative;
     list-style: none;
     overflow: hidden;
-    width: 100%;
+    width: 50%;
     padding: 0;
-    margin: 0;
+    margin: 25%;
     }
   
 .rslides li {
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
-    width: 50%;
-    left: 25%;
+    width: 100%;
+    left: 0;
     top: 0;
     }
   

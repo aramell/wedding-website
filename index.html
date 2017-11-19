@@ -92,16 +92,7 @@
                                 <!-- <img src="img/bradThumb.jpg" class="thumb"></img> -->
 
                         </div><!--end column-->
-
-                        <div>
-                             <ul class="rslides">
-                                    <li><img src="img/eng2.jpg" alt=""></li>
-                                    <li><img src="img/newsize-apple.jpg" alt=""></li>
-                                     <li><img src="img/group1.jpg" alt=""></li>
-                                     <li><img src="img/group2.jpg" alt=""></li>
-                             </ul>
-
-                        </div>
+                                                          
                         <div class="clearfix"></div>
 
                         <div class="column full">
@@ -124,7 +115,12 @@
 
                             <h2>The Engagement</h2>
                             <p>Andrew and Katie planned a trip to Nashville to visit friends. It just happened that quite a few of them were able to be in town that weekend. While killing time before dinner reservations, the group decided to check out “one more bar with a view” across the pedestrian bridge towards the stadiums. Side note – there are no bars across the bridge. Anyway, at sunset, Katie was excited to take a picture with Andrew given the beautiful view. Next thing she knew, he was down on one knee proposing, all of their friends cheering in the background. Andrew completely surprised Katie, which is a very difficult task if you know Katie. But very special thanks to friends and family who helped pull off a truly memorable moment.</p>
-                                                        
+                            <ul class="rslides">
+                                    <li><img src="img/eng2.jpg" alt=""></li>                                    
+                                    <li><img src="img/group1.jpg" alt=""></li>
+                                    <li><img src="img/group2.jpg" alt=""></li>
+                                     <!-- <li><img src="img/group2.jpg" alt=""></li> -->
+                             </ul>                  
                         </div><!--end column-->
                       
                     </section>
@@ -262,15 +258,31 @@
             </div> <!-- #main-container -->
         </div> <!-- #bg-container -->
         <!-- Jquery and scripts -->
-        <script src="responsiveslides.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <!-- <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
         <script src="js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/vendor/waypoints.min.js"></script>
-        <script src="js/vendor/jquery-picture-min.js"></script> -->
+        <script src="js/vendor/jquery-picture-min.js"></script>
         <script>
                 $(function() {
-                  $(".rslides").responsiveSlides();
+                    $(".rslides").responsiveSlides({
+                        auto: true,             // Boolean: Animate automatically, true or false
+                        speed: 500,            // Integer: Speed of the transition, in milliseconds
+                        timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+                        pager: false,           // Boolean: Show pager, true or false
+                        nav: false,             // Boolean: Show navigation, true or false
+                        random: false,          // Boolean: Randomize the order of the slides, true or false
+                        pause: true,           // Boolean: Pause on hover, true or false
+                        pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                        prevText: "Previous",   // String: Text for the "previous" button
+                        nextText: "Next",       // String: Text for the "next" button
+                        maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                        navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                        manualControls: "",     // Selector: Declare custom pager navigation
+                        namespace: "rslides",   // String: Change the default namespace used
+                        before: function(){},   // Function: Before callback
+                        after: function(){}     // Function: After callback
+                    });
                 });
         </script>
         <!-- <script src="js/main-1.5.js"></script> -->
