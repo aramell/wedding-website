@@ -30,7 +30,7 @@ body {
     text-shadow: none;
 }
 a {
-    color: #168190;
+    color: #a3ccff;
     text-decoration: none;
 }
 hr {
@@ -65,6 +65,9 @@ textarea {
     padding: 0.2em 0;
 }
 /* new css */
+.bridegroom{
+    margin: 15%;
+}
 
 #guide{
     font-size: 1.4em;
