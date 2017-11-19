@@ -120,7 +120,7 @@ body {
    =================== */
 
 .header-container {
-    position:absolute;
+    position:fixed;
     bottom:20px;
     width: 100%;
     background: black;
@@ -177,11 +177,11 @@ body {
     line-height: 100%;
 }
 #introtext .date {
-    margin-top: 10px;    
+    margin-top: 5px;    
     font-family: 'Dancing Script', cursive;
     
     /* font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  */
-    font-size: 5em;
+    font-size: 1em;
 }
 
 /* ==============
@@ -201,7 +201,7 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     padding: 5px 0;
     text-align: center;
     text-decoration: none;
@@ -309,7 +309,7 @@ section h1 {
     font-family: 'Dancing Script', cursive;
     
     /* font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
-    font-size: 2.6em;
+    font-size: 2.1em;
 
 }
 section h2 {
@@ -325,7 +325,7 @@ section h2 {
     margin: 0;
 }
 .column p {
-    font-size: 1em;
+    font-size: .9em;
     line-height: 145%;
     padding: 0;
 }
@@ -382,9 +382,10 @@ section h2 {
     }
 
     /** get the transparent bar on the bottom **/
+    /* bar is stickied  */
     .header-container {
-        position:absolute;
-        bottom:20px;
+        position:fixed;
+        bottom:30px;
         width:100%;
         line-height:12px;
     }
@@ -552,7 +553,7 @@ section h2 {
         padding: 0 20px;
     }
     section h1 {
-        font-size: 5.9em;
+        font-size: 5em;
     }
 
     .column.full {
