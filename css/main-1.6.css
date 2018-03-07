@@ -592,6 +592,12 @@ section h2 {
     }  
 
 }
+@media only screen and (max-width: 770px){
+    nav a{
+        font-size: .7em;
+
+    }
+}
 
 
 @media only screen and (min-width: 1140px) {
@@ -603,6 +609,7 @@ section h2 {
     nav a {
         padding: 15px 3%;
         font-size: 120%;
+        
     }
 
     .wrapper {
