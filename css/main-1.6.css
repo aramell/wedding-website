@@ -224,16 +224,23 @@ nav a {
 
 nav li a:hover {
     color: #fff;
-    background: #b1bf92;
+    background: #63ccdf;
     text-decoration: none;
     outline: none;
 }
 nav li a.selected {
     color: #fff;
-    background: #b1bf92;
+    background: #63ccdf;
     text-decoration: none;
     outline: none;
 }
+
+a:hover{
+    background: #2c51cc;
+    transition: .3s ease-in-out .3s;
+    
+}
+
 
 /** firefox remove outline **/
 nav ul li a:focus {outline:none;}
