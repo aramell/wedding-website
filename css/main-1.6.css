@@ -71,7 +71,6 @@ textarea {
 
 #guide{
     font-size: 1.4em;
-
 }
 
 
@@ -489,7 +488,7 @@ section h2 {
 
 
     .column p {
-        font-size: 1.1em;
+        font-size: .9em;
     }
 
     #gmap iframe {
@@ -580,7 +579,7 @@ section h2 {
         width: 50%;
     }
     .column p {
-        font-size: 1.4em;
+        font-size: 1em;
         line-height: 145%;
         padding: 0 20px;
     }  
