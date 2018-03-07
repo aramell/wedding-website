@@ -73,6 +73,9 @@ textarea {
     font-size: 1.4em;
 
 }
+#brewery{
+    display: none;
+}
 
 
 /* ===== Initializr Styles ==================================================

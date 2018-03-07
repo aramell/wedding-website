@@ -1,8 +1,6 @@
 $(function (){
-  console.log('test')
-  $('#hide').click(function(){
-    
-    var target = $(event.target)
-    target.hide()
+  $('#brewlink').click(function(e){
+    e.preventDefault()
+    $('#brewery').slideToggle()
   })
 })
