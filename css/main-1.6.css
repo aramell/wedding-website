@@ -302,6 +302,9 @@ body {
 #bg-container {
 
 }
+#quickmap{
+    text-align: center;
+}
 
 section {
     text-align: left;
