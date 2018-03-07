@@ -72,6 +72,10 @@ textarea {
 #guide{
     font-size: 1.4em;
 }
+#traveling li{
+    list-style: none
+
+}
 
 
 /* ===== Initializr Styles ==================================================
@@ -148,6 +152,7 @@ body {
 .title {
     color: black;
 }
+
 #introtext {
     display: block;
     padding: 10px 0 10px 0;
@@ -549,7 +554,9 @@ section h2 {
         margin-top: 15px;
         margin-bottom: 20px;
     }
-
+    #miles{
+    text-align: center;
+}
 /* ============
     WIDE: Main
    ============ */
