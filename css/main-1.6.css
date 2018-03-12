@@ -71,6 +71,7 @@ textarea {
 
 #guide{
     font-size: 1.2em;
+    text-align: left;
 }
 #traveling li{
     list-style: none
@@ -348,7 +349,8 @@ section h2 {
     line-height: 120%;
     padding: 0 0px;
 }
-section .empty{
+section 
+.empty{
     background: rgba(0, 0, 0, 0)
 }
 
