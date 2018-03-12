@@ -77,6 +77,10 @@ textarea {
 
 }
 
+#header{
+    text-decoration: underline;
+}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Bradley Greenwood
