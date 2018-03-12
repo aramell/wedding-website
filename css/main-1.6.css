@@ -611,8 +611,28 @@ section h2 {
         font-size: .7em;
 
     }
+    #introtext
+    .head-katie{
+        font-size: 3em;
+    }
+    #introtext
+    .head-andrew{
+        font-size: 3em;
+    }
+  
 }
-
+@media only screen and (max-width: 425px){
+   
+    #introtext
+    .head-katie{
+        font-size: 2.5em;
+    }
+    #introtext
+    .head-andrew{
+        font-size: 2.5em;
+    }
+    
+}
 
 @media only screen and (min-width: 1140px) {
 
