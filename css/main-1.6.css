@@ -315,7 +315,7 @@ section {
     padding: 25px;
     background-color: black;
     height: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
     color: white;
 
     -ms-border-radius: 8px;
@@ -336,6 +336,7 @@ section {
 
 section h1 {
     font-family: 'Dancing Script', cursive;
+    text-align:center;
     
     /* font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
     font-size: 2.1em;
@@ -346,6 +347,9 @@ section h2 {
     font-family: 'Dancing Script', cursive;
     line-height: 120%;
     padding: 0 0px;
+}
+section .empty{
+    background: rgba(0, 0, 0, 0)
 }
 
 .column {
@@ -621,7 +625,7 @@ section h2 {
     }
   
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 420px){
    
     #introtext
     .head-katie{
